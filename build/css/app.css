@@ -312,7 +312,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -322,6 +324,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  background-color: #0F0F0F;
 }
 
 p {
@@ -339,7 +342,9 @@ a {
   color: #005b41;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   margin: 0;
@@ -355,4 +360,19 @@ h2 {
 
 h3 {
   font-size: 3.2rem;
+}
+
+.header {
+  background-color: #520c75;
+}
+.header h1 {
+  color: #E3FEF7;
+}
+
+.navegacion-principal a {
+  color: #E3FEF7;
+  font-size: 2.4rem;
+}
+.navegacion-principal a:hover {
+  color: #1cb98d;
 }

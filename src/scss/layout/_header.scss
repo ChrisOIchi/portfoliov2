@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+
+.header {
+    background-color: v.$morado;
+
+
+    h1 {
+        color: v.$menta;
+    }
+}
+
+.navegacion-principal{
+
+    a{
+        color: v.$menta;
+        font-size: 2.4rem;
+        &:hover{
+            color: v.$agua;
+        }
+    }
+}
