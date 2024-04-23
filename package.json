@@ -1,0 +1,25 @@
+{
+  "name": "mysyte",
+  "version": "1.0.0",
+  "description": "A site to deploy my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss:build/css --watch",
+    "tarea": "gulp tarea",
+    "dev": "gulp dev"
+  },
+  "keywords": [
+    "HTML",
+    "SASS",
+    "JS",
+    "PHP"
+  ],
+  "author": "Christopher Osuna",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.75.0"
+  }
+}
