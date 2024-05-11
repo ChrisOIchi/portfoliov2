@@ -21,7 +21,7 @@ body {
 }
 
 p {
-  color: v.$verde;
+  color: v.$negro;
 }
 
 .contenedor {
@@ -32,7 +32,7 @@ p {
 
 a {
   text-decoration: none;
-  color: v.$verde;
+  color: v.$morado;
 }
 
 h1,
@@ -41,6 +41,7 @@ h3 {
   font-family: v.$fuente_principal;
   font-weight: 400;
   margin: 0;
+  color: v.$claro;
 }
 
 h1 {
@@ -53,4 +54,50 @@ h2 {
 
 h3 {
   font-size: 3.2rem;
+}
+
+//botones
+.btn-transparente {
+  background-color: v.$verde;
+  color: #c4cbf2;
+  padding: 1rem;
+  border-color: v.$violeta;
+  border-radius: 17px;
+  font-weight: 300;
+  font-size: 2.4rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: v.$claro;
+    color: v.$violeta;
+  }
+}
+
+.btn-morado {
+  background-color: v.$morado;
+  color: v.$claro;
+  padding: 2rem;
+  border-color: v.$violeta;
+  border-radius: 5px;
+  font-weight: 300;
+  font-size: 2.4rem;
+  cursor: pointer;
+  border: 2px solid v.$violeta;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: v.$claro;
+    color: v.$violeta;
+  }
+}
+
+.titles{
+
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  margin: 8rem 0;
 }

@@ -1,21 +1,45 @@
-@use 'base/variables' as v;
+@use "base/variables" as v;
 
 .header {
-    background-color: v.$morado;
+  background-color: v.$verde;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
 
-
-    h1 {
-        color: v.$menta;
-    }
+  h1 {
+    color: v.$claro;
+    font-size: 4rem;
+    margin-left: 2rem;
+  }
 }
 
-.navegacion-principal{
+.contenido-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
 
-    a{
-        color: v.$menta;
-        font-size: 2.4rem;
-        &:hover{
-            color: v.$agua;
-        }
+  img {
+    width: 6rem;
+  }
+
+}
+
+.navegacion-principal {
+  //mover a la derecha del todo y separar los elementos
+  margin-left: auto;
+  display: flex;
+  gap: 2rem;
+
+  a {
+    color: v.$violeta;
+    font-size: 2.4rem;
+    &:hover {
+      color: v.$claro;
+      font-size: 2.6rem;
     }
+  }
 }

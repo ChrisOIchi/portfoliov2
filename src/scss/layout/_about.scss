@@ -1,0 +1,39 @@
+@use "base/variables" as v;
+
+.about {
+  background-color: v.$claro;
+  text-align: center;
+  display: flex;
+  gap: 3rem;
+  padding: 3rem;
+  flex-direction: row-reverse;
+
+  .about-picture {
+    display: inline-block;
+    background-color: v.$verde;
+
+    &,
+    & img {
+      border-radius: 2%;
+    }
+
+    img {
+      display: block;
+    }
+  }
+}
+
+.about-contenido {
+  align-self: baseline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  text-align: left;
+
+  p{
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
